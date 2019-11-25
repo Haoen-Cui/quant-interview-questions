@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/Haoen-Cui/quant-interview-questions.svg?branch=master)](https://travis-ci.org/Haoen-Cui/quant-interview-questions)
+
 # Quantitatively Interviewed Blog
 
 This is the repo for the `Quantitatively Interviewed` blog. Please read the [About](https://github.com/Haoen-Cui/quant-interview-questions/about/) page of the blog for more info. 
