@@ -3,7 +3,6 @@ title: "Base Rate Fallacy"
 author: "Haoen Cui"
 date: "2019-11-23"
 tags: ["Bayes Rule", "Conditional Probability"]
-ReadingTime: 20
 ---
 
 Many questions test the concept of [conditional probability](https://en.wikipedia.org/wiki/Conditional_probability) via [Bayes' Rule](https://en.wikipedia.org/wiki/Bayes'_theorem). The results may be counter-intuitive, which can normally be attributed to [base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy). 
