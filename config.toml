@@ -1,0 +1,65 @@
+baseurl = "/"
+relativeurls = true
+languageCode = "en-us"
+title = "Quantitatively Interviewed"
+theme = "beautifulhugo"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+
+[Author]
+    name = "Haoen Cui"
+    website = "hcui10.github.io"
+    github = "Haoen-Cui"
+    linkedin = "haoencui"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    url = "/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/Haoen-Cui/quant-interview-questions"
+    weight = 4
+
+[params]
+    description = "Selected Questions and Answers for Quant Interviews"
+    subtitle = "Eventually Probably Approximately Correct, I Suppose"
+
+    rss = true
+    readingTime = false # seems to be messed up if there are interactive plots
+    useHLJS = true
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "python", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "images/favicon.png"
+
+    # path to the logo, under "static"
+    logo = "images/logo.png"
+

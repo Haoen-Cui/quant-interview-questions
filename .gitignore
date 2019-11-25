@@ -1,0 +1,17 @@
+# R stuff
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# blogdown
+blogdown
+public/
+static/*
+!static/images/
+
+# Mac OS X stuff
+.DS_Store
+
+# unnecessary files
+README.html
