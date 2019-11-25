@@ -9,6 +9,7 @@ blogdown
 public/
 static/*
 !static/images/
+content/post/*.html
 
 # Mac OS X stuff
 .DS_Store
