@@ -11,3 +11,4 @@ This section serves as notes for myself or anyone who wants to reproduce this si
 - `themes/beautifulhugo` was installed via `R` command 
 `blogdown::install_theme(theme = "halogenica/beautifulhugo")`
 - `themes/beautifulhugo/layouts/partials/footer_custom.html` was modified to include `MathJax` according to [section 2.5 of the `blogdown` book](https://bookdown.org/yihui/blogdown/templates.html). 
+- `config.toml` URL configurations: I still haven't fully figure this part out. For details, see [Hugo configuration doc](https://gohugo.io/getting-started/configuration/). I think the relevant params are `baseurl`, `relativeURLs`, `conanifyURLs`, and `uglyURLs`. 

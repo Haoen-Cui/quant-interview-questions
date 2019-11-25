@@ -1,10 +1,16 @@
-baseurl = "https://haoen-cui.github.io/quant-interview-questions/"
+baseurl = "/"
+relativeURLs = true
+# conanifyURLs = true
+# uglyURLs = true
+footnoteReturnLinkContents = "↩"
 
 languageCode = "en-us"
 title = "Quantitatively Interviewed"
 theme = "beautifulhugo"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# enable emoji in markdown
 enableEmoji = true
 
 [Author]
@@ -17,8 +23,8 @@ enableEmoji = true
     post = "/:year/:month/:day/:slug/"
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+    category = "categories"
+    tag = "tags"
 
 [[menu.main]]
     name = "About"
