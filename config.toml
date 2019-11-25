@@ -1,5 +1,5 @@
-baseurl = "/"
-relativeurls = true
+baseurl = "https://haoen-cui.github.io/quant-interview-questions/"
+
 languageCode = "en-us"
 title = "Quantitatively Interviewed"
 theme = "beautifulhugo"
