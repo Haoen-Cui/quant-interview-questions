@@ -2,6 +2,10 @@ language: r
 dist: xenial
 latex: false
 
+# only clone most recent commit
+git:
+  depth: 1
+
 branches:
   only:
     - master
@@ -16,10 +20,11 @@ script:
   - Rscript -e 'install.packages(c("data.table", "plotly"))' # install packages for posts
   - Rscript -e 'blogdown::build_site()'
 
+# deploy to gh-pages branch
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: $GITHUB_PAT
   on:
     branch: master
   local_dir: public
