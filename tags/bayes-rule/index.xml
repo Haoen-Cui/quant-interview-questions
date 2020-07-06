@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayes Rule on Quantitatively Interviewed</title>
+    <link>/tags/bayes-rule/</link>
+    <description>Recent content in Bayes Rule on Quantitatively Interviewed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayes-rule/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Base Rate Fallacy</title>
+      <link>/2019/11/23/base-rate-fallacy/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/23/base-rate-fallacy/</guid>
+      <description>Many questions test the concept of conditional probability via Bayes’ Rule. The results may be counter-intuitive, which can normally be attributed to base rate fallacy.
+This post summarizes some commonly used techniques to solve such problems. Then, we will illustrate the method using a few well-known textbook examples. After reading this post, one should be able to easily tackle a widely covered class of questions.</description>
+    </item>
+    
+  </channel>
+</rss>
